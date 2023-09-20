@@ -1,0 +1,23 @@
+pip install django
+
+django-admin startproject <nameOfProject> .
+
+run service:  python manage.py runserver
+
+Ctrl + c to quit
+
+run: python manage.py migrate
+
+django-admin startapp <nameOfFile>
+
+Go to settings.py file, 
+Under INSTALLED_APPS, add dolist (<nameOfFile>)
+
+
+python manage.py makemigrations <-- creates 0001_initial.py file
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+http://127.0.0.0:8000/admin
